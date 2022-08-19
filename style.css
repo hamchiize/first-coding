@@ -1,0 +1,40 @@
+@media (max-width: 1280px) {
+    * {
+        background-color: wheat;
+    }
+}
+
+@media (max-width: 600px) {
+    * {
+        background-color:aquamarine;
+    }
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    justify-content: center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+}
+
+.container {
+    border: 2px solid tomato;
+    margin: 50px;
+}
+
+.transformed {
+    background-color: bisque;
+    border-radius: 2px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.transformed:hover {
+    transform: scale(0.5);
+
+}
